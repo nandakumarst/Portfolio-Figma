@@ -26,8 +26,8 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#home" id="home-link">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about" id="about-link">About</a></li>
               <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
               <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
               <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
@@ -38,7 +38,7 @@
         </div>
       </nav>
     
-      <section class="hero-section-custom d-flex align-items-center min-vh-100 position-relative">
+      <section id="home" class="hero-section-custom d-flex align-items-center min-vh-100 position-relative" style="display: flex;">
         <div class="row align-items-center">
           <!-- Left Column -->
           <div class="col-lg-6 position-relative">
@@ -70,71 +70,46 @@
             </div>
           </div>
         </div>
-      </div>
-    </div></section>
-     
+      </section>
 
-  </section>
-  <section id="about" class="aboutsection d-flex flex-row justify-content-center">
-    
-    <div class="backimage" style="left: 30px; top: -210%;">
-      <div>
-        <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914721/Rectangle_cxcevp.png" class="hand"/>
-      </div>
-      <div class="d-flex flex-column social-icons-vertical gap-2 position-absolute icon" style="left:100px; top:184%">
-        <a href="#" class="text-dark"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="text-dark"><i class="bi bi-github"></i></a>
-        <a href="#" class="text-dark"><i class="bi bi-linkedin"></i></a>
-        <a href="#" class="text-dark"><i class="bi bi-telegram"></i></a>
-      </div>
+      <section id="about" class="aboutsection d-flex flex-row justify-content-center" style="display: none;">
+        <div class="backimage" style="left: 30px; top: -210%;">
+          <div>
+            <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914721/Rectangle_cxcevp.png" class="hand"/>
+          </div>
+          <div class="d-flex flex-column social-icons-vertical gap-2 position-absolute icon" style="left:100px; top:184%">
+            <a href="#" class="text-dark"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-github"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-telegram"></i></a>
+          </div>
+        </div>
+        <div class="about-content" style="margin-left: 60px;">
+          <div class="custom-heading">
+            <span class="first-letter">T</span>his is it. <span style="font-size:1.2rem;">;)</span>
+            <span class="custom-line"></span>
+          </div>
+          <p class="about-intro">
+            Anish Kr. Sinha is an Indian <b>UI/UX Designer &amp; Front End Developer</b> with a passion for designing beautiful and functional user experiences. Typically, he's Driven &amp; permanently Curious. He's obsessed with designing things and even more obsessed with designing cool &amp; clean stuff for the web and mobile. He has been in the business of creating since he hung his first painting on the wall when he was 11.<br>
+            He holds a <b>bachelor degree in Computer Applications</b>. During his graduation, he has been actively involved in the web design community for the last 3 years. He has designed websites for small businesses, events, nonprofits and more. Currently he's based in Bihar, India. Where he's working as an independent creative.<br>
+            His interests, however, extend beyond the web and he loves helping people with branding and print design. He even loves designing <b>3D floor plan</b>.<br>
+            When he's not designing, he's probably hanging out with his girlfriend, watching series, sketching or messing around on something inspired by YouTube tutorials.
+          </p>
+          <hr class="hr"/>
+          <div class="d-flex flex-row justify-content-center m-3">
+            <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914295/Vector_4_tgthlp.png" class="image"/>
+            <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914297/Vector_5_ny1bqh.png" class="image1"/>
+          </div>
+        </div>
+        <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914296/Vector_3_t4mju3.png" class="lefticon"/>
+        <div class="email-vertical position-absolute d-none d-lg-block borderr" style="right: 90px; top: 205%; display: flex; flex-direction: column; align-items: center;">
+          <span class="text-black small m-3">anishkumar.sinha@outlook.com</span>
+        </div>
+      </section>
     </div>
-    
-    <div class="about-content" style="margin-left: 60px;">
-      <div class="custom-heading">
-        <span class="first-letter">T</span>his is it. <span style="font-size:1.2rem;">;)</span>
-        <span class="custom-line"></span>
-      </div>
-  
-      <p class="about-intro">
-        Anish Kr. Sinha is an Indian <b>UI/UX Designer &amp; Front End Developer</b> with a passion for designing beautiful and functional user experiences. Typically, he's Driven &amp; permanently Curious. He's obsessed with designing things and even more obsessed with designing cool &amp; clean stuff for the web and mobile. He has been in the business of creating since he hung his first painting on the wall when he was 11.<br>
-        He holds a <b>bachelor degree in Computer Applications</b>. During his graduation, he has been actively involved in the web design community for the last 3 years. He has designed websites for small businesses, events, nonprofits and more. Currently he's based in Bihar, India. Where he's working as an independent creative.<br>
-        His interests, however, extend beyond the web and he loves helping people with branding and print design. He even loves designing <b>3D floor plan</b>.<br>
-        When he's not designing, he's probably hanging out with his girlfriend, watching series, sketching or messing around on something inspired by YouTube tutorials.
-      </p>
-      <hr class="hr"/>
-      <div class="d-flex flex-row justify-content-center m-3">
-        <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914295/Vector_4_tgthlp.png" class="image"/>
-        
-  <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914297/Vector_5_ny1bqh.png" class="image"/>
-        
-  
-       </div>
-  
-    
+  </div>
 
-    </div>
-    <img src="https://res.cloudinary.com/djhabesmv/image/upload/v1750914296/Vector_3_t4mju3.png" class="lefticon"/>
-    <div class="email-vertical position-absolute d-none d-lg-block borderr" style="right: 90px; top: 205%; display: flex; flex-direction: column; align-items: center;">
-     
-      <span class="text-black small m-3">anishkumar.sinha@outlook.com</span>
-    </div>
-  
-  </section>
-
-
-    
-   
-    
-       </div>
-      </div>
-     
-    
-  <!-- Bootstrap JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Custom JS -->
   <script src="script.js"></script>
-  
-  
 </body>
 </html> 
